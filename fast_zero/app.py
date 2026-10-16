@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get('/batatinha')
 def read_root():
-    return 'Batatinhas fritas voadoras'
+    return {'message': 'Olar mundis!!'}

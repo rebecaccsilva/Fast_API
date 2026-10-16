@@ -3,6 +3,6 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
-@app.get('/batatinha')
+@app.get('/')
 def read_root():
-    return {'message': 'Olar mundis!!'}
+    return {'message': 'Olá Mundo!'}

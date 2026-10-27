@@ -33,7 +33,7 @@ pythonpath = ['.']
 addopts = ['-p', 'no:warnings', '--cov=fast_zero', '--cov-context=test']
 
 [tool.taskipy.tasks]
-run = 'fastapi dev fast_zero/app.py'
+run = 'fastapi dev fast_zero/app2.py'
 pre_test = 'task lint'
 test = 'pytest --cov=fast_zero -vv'
 post_test = 'coverage html'
